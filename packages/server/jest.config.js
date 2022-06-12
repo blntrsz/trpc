@@ -5,6 +5,7 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
   collectCoverageFrom: ['./*/src/**/*.{ts,tsx,js,jsx}'],
   setupFilesAfterEnv: ['./server/jest.setup.js'],
+  clearMocks: true,
   globals: {
     'ts-jest': {
       tsconfig: {
